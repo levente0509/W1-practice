@@ -1,40 +1,58 @@
-/* h1 {
-    color:blueviolet
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
 }
 
-#blue{
-    color:lightblue
+a {
+  text-decoration: none;
 }
 
-h1.purple {
-    color:purple
+a img {
+  border: none;
 }
 
-p{
-    color:red;
-    font: size 16px;
+button,
+a {
+  cursor: pointer;
+  color: inherit;
 }
 
-p.purple {
-    color:pink;
+textarea {
+  resize: none;
 }
- */
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
 body {
   color: darkorange;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  width: 100vw;
+  height: 100vh;
 }
 
-div {
-  color: crimson;
+span {
+  display: block;
+  margin-bottom: 20px;
 }
 
-.container-1 {
-  background-color: black;
-  height: 100px;
-}
-
-p {
-  height: 80px;
-  font-weight: 300;
+.box {
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  background-color: crimson;
 }
